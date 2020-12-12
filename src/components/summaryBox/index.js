@@ -9,13 +9,13 @@ const SummaryBox = ({ cart }) => {
       <p>Items({cart.length})</p>
       <span>:</span>
       <p>
-        &#8377;&nbsp;
+        &#36;&nbsp;
         {cart.reduce((a, item) => a + item.price * item.quantity, 0)}
       </p>
       <p>Discount</p>
       <span>:</span>
       <p>
-        -&#8377;&nbsp;
+        -&#36;&nbsp;
         {cart.reduce(
           (a, item) => a + item.price * item.quantity * (item.discount / 100),
           0
@@ -24,7 +24,7 @@ const SummaryBox = ({ cart }) => {
       <p>Type Discount</p>
       <span>:</span>
       <p>
-        -&#8377;&nbsp;
+        -&#36;&nbsp;
         {cart.reduce(
           (a, item) =>
             a +
@@ -35,7 +35,7 @@ const SummaryBox = ({ cart }) => {
       <div className={styles.total}>
         <h2>Order Total</h2>
         <h2>
-          &#8377;&nbsp;
+          &#36;&nbsp;
           {cart.reduce(
             (a, item) =>
               a +

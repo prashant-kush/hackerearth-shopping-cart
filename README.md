@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Shopping Cart Frontend Developer Intern Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This webapp [https://shopping-cart-self.vercel.app/] is made for the task "Frontend Intern Assignment" for Hackerearth
 
-## Available Scripts
+### Live hosted link :- [https://shopping-cart-self.vercel.app/]
 
-In the project directory, you can run:
+## List of all major libraries used :-
 
-### `yarn start`
+1. ReactJs (Frontend framework)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## List of all Tasks that are completed :-
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. - [x] The cart page has a two-column layout. The first column has the items while the second one displays the total price container. The initial quantity of each item is 1.
+2. - [x] The user is capable of updating the number of items. The count of items is shown in the total price container and updation of the count is dynamic.
+3. - [x] The user can delete the items from the cart. Custom made notification toast is shown at the top to notify that the item that has been deleted.
+4. - [x] All the changes on the whole app is dynamic, i.e, it does not require a page refresh.
+5. - [x] Page is made responsive and it changes to a single column layout where the cart appears above the items list.
+6. - [x] Refreshing the page maintains the items state in the cart. If all the items in the cart are deleted, a button is shown to reload the items from the given JSON again.
 
-### `yarn test`
+## Bonus Task:-
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bonus Task is also completed, i.e, an extra 15% discount is provided on those items whose "type" property is set as "fiction".

@@ -116,12 +116,16 @@ const Cart = () => {
                         changeQuantity(item.id, "decrement")
                       }
                     />
-                    <p> &#8377; &nbsp;{item.price}</p>
+                    <p> &#36; &nbsp;{item.price}</p>
                   </div>
                 );
               })
             ) : (
-              <button type="button" onClick={reloadItems}>
+              <button
+                type="button"
+                className={styles.reload}
+                onClick={reloadItems}
+              >
                 Reload items in the Cart
               </button>
             )}
