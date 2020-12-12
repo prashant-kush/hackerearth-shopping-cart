@@ -1,0 +1,48 @@
+.main {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  transition: all 0.3s;
+}
+.message {
+  width: 100%;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+  background: green;
+  color: white;
+  position: relative;
+  /* animation: mymoveRight forwards 0.5s; */
+  animation-delay: 2s;
+}
+.timer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: grey;
+  height: 0.3rem;
+  border: none;
+  animation: mymove forwards 3s;
+}
+
+@keyframes mymove {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+@keyframes mymoveRight {
+  from {
+    right: 0px;
+  }
+  to {
+    right: -100%;
+  }
+}

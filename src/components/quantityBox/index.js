@@ -2,13 +2,13 @@ import React from "react";
 
 import styles from "./style.module.css";
 
-const QuantityBox = ({ quantity, changeQuantity }) => {
+const QuantityBox = ({ quantity, incrementQuantity, decrementQuantity }) => {
   return (
     <div className={styles.main}>
       <button
         type="button"
         onClick={() => {
-          if (quantity - 1 !== 0) changeQuantity(quantity - 1);
+          decrementQuantity();
         }}
       >
         -
@@ -17,7 +17,7 @@ const QuantityBox = ({ quantity, changeQuantity }) => {
       <button
         type="button"
         onClick={() => {
-          changeQuantity(quantity + 1);
+          incrementQuantity();
         }}
       >
         +
