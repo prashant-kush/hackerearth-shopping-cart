@@ -1,0 +1,22 @@
+.item_main {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  -webkit-box-shadow: 10px 10px 12px -5px var(--color-gray);
+  -moz-box-shadow: 10px 10px 12px -5px var(--color-gray);
+  box-shadow: 10px 10px 12px -5px var(--color-gray);
+  border: var(--border-size) solid var(--color-gray);
+  transition: all 0.3s;
+}
+.item_main:hover {
+  box-shadow: none;
+}
+.item_main > span {
+  align-self: center;
+}
+.item_main > button {
+  background-color: inherit;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
