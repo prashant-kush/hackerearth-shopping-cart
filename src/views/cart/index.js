@@ -25,7 +25,7 @@ const Cart = () => {
   };
 
   const deleteItem = (id) => {
-    const newCart = cart.filter((item) => item.id != id);
+    const newCart = cart.filter((item) => item.id !== id);
     mutateCart(newCart);
   };
 
@@ -40,7 +40,7 @@ const Cart = () => {
       changeCart(data.map((item) => ({ ...item, quantity: 1 })));
     }
     console.log(data);
-  }, [data]);
+  }, []);
 
   return (
     <div className={styles.main}>
