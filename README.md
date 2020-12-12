@@ -20,3 +20,12 @@
 ## Bonus Task:-
 
 Bonus Task is also completed, i.e, an extra 15% discount is provided on those items whose "type" property is set as "fiction".
+
+## Steps to run on local server
+
+1.  Download the file and unzip it.
+2.  Please ensure that latest versions of **"nodeJs" and "yarn"** are installed on the system. **"node -v"** & **"yarn -v"** commands helps in ensuring that they are properly installed on the system.
+3.  Use **"cd"** command to change to the project directory.
+4.  Run **"yarn install"** to install all the dependencies.
+5.  Run **"yarn start"** to start a local server
+6.  Visit http://localhost:3000/ in the browser to open the app.
