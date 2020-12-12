@@ -8,7 +8,7 @@ const QuantityBox = ({ quantity, changeQuantity }) => {
       <button
         type="button"
         onClick={() => {
-          if (quantity - 1 != 0) changeQuantity(quantity - 1);
+          if (quantity - 1 !== 0) changeQuantity(quantity - 1);
         }}
       >
         -
